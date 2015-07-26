@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdAnnuleren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 245</value>
+  </data>
+  <data name="cmdAnnuleren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <metadata name="metroStyleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>287, 330</value>
+  </data>
+  <data name="cmdAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 276</value>
+  </data>
+  <data name="cmdAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdAdvanced.Text" xml:space="preserve">
+    <value>Geavanceerd</value>
+  </data>
+  <data name="&gt;&gt;cmdAdvanced.Name" xml:space="preserve">
+    <value>cmdAdvanced</value>
+  </data>
+  <data name="&gt;&gt;cmdAdvanced.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAdvanced.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbMelding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbMelding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 276</value>
+  </data>
+  <data name="lbMelding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbMelding.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbMelding.Name" xml:space="preserve">
+    <value>lbMelding</value>
+  </data>
+  <data name="&gt;&gt;lbMelding.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbMelding.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbMelding.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbStudiepunten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 216</value>
+  </data>
+  <data name="tbStudiepunten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 23</value>
+  </data>
+  <data name="tbStudiepunten.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbStudiepunten.Name" xml:space="preserve">
+    <value>tbStudiepunten</value>
+  </data>
+  <data name="&gt;&gt;tbStudiepunten.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbStudiepunten.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbStudiepunten.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbStudiepunten.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbStudiepunten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 194</value>
+  </data>
+  <data name="lbStudiepunten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="lbStudiepunten.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbStudiepunten.Text" xml:space="preserve">
+    <value>Studiepunten</value>
+  </data>
+  <data name="&gt;&gt;lbStudiepunten.Name" xml:space="preserve">
+    <value>lbStudiepunten</value>
+  </data>
+  <data name="&gt;&gt;lbStudiepunten.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbStudiepunten.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbStudiepunten.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbBeschrijving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 130</value>
+  </data>
+  <data name="tbBeschrijving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 61</value>
+  </data>
+  <data name="tbBeschrijving.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbBeschrijving.Name" xml:space="preserve">
+    <value>tbBeschrijving</value>
+  </data>
+  <data name="&gt;&gt;tbBeschrijving.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbBeschrijving.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbBeschrijving.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbBeschrijving.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbBeschrijving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 108</value>
+  </data>
+  <data name="lbBeschrijving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="lbBeschrijving.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbBeschrijving.Text" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="&gt;&gt;lbBeschrijving.Name" xml:space="preserve">
+    <value>lbBeschrijving</value>
+  </data>
+  <data name="&gt;&gt;lbBeschrijving.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbBeschrijving.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbBeschrijving.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbNaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 82</value>
+  </data>
+  <data name="tbNaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 23</value>
+  </data>
+  <data name="tbNaam.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbNaam.Name" xml:space="preserve">
+    <value>tbNaam</value>
+  </data>
+  <data name="&gt;&gt;tbNaam.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbNaam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbNaam.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNaam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 60</value>
+  </data>
+  <data name="lblNaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="lblNaam.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNaam.Text" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Name" xml:space="preserve">
+    <value>lblNaam</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmdOpslagen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 245</value>
+  </data>
+  <data name="cmdOpslagen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="cmdOpslagen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdOpslagen.Text" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="&gt;&gt;cmdOpslagen.Name" xml:space="preserve">
+    <value>cmdOpslagen</value>
+  </data>
+  <data name="&gt;&gt;cmdOpslagen.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdOpslagen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdOpslagen.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PjY2NhQUFBMSEhQUFCQ
+        kIj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiQkIhYWFhUUFBQUEhM
+        SEhISEBEQEBAQDhkaGD8+Pj8+Pj8+PjY2NgAAAAAAAAAAAAcGBj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj08PAQCAgAAAAAAAAAAAAAAAAAAAAAAAAAAABEQED8+Pj8+Pj8+Pj8
+        +Pg4ODgAAAAAAAAYGBDs6Oj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgI
+        CAAEAAAIAAAIAAAIAAAIAAAIAAAAAAB4eHj8+Pj8+Pj8+Pj8+PiMiIgAAAAEAAAEAADU0ND8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiwsLAAAAAIAAAIAAAIAAAIAAAIAAAIAAAAAACo
+        qKj8+Pj8+Pj8+Pj8+Pjo6OgQCAgAAAAAAACwsKj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Ph0cHAAAAAIAAAIAAAIAAAIAAAIAAAEAAAMCAjY2ND8+Pj8+Pj8+Pj8+Pj8+PhwcHAAAAAA
+        AAB4eHj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pg0MDAAAAAIAAAIAAAIAAAI
+        AAAIAAAAAAAsKCj4+Pj8+Pj8+Pj8+Pj8+Pj8+Pjk4OAQEBAAAAA4ODD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+PjQ0NAEAAAEAAAIAAAIAAAIAAAIAAAIAAAAAABkYGD8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+PiMiIgAAAAEAADY2Nj8+Pj8+PjEwOjY2PD8+Pj8+PjU0PDMyPD8+Pj8+Pj8+PhsaGgAAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAAAACsqKj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj4+PgwKCgAAAB0cHD8+Pj8
+        +PiEgNgQCLhoYNBkYNAQCLiUkOD8+Pj8+Pjk4OAQCAgAAAAIAAAIAAAIAAAIAAAIAAAAAAAMCAjs6Oj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PjEwMAAAAAQCAjk4OD8+PiIgNgoIMB8eNh0cNAYELiQkOD8+Pj8
+        +PhcWFgAAAAIAAAIAAAIAAAIAAAIAAAIAAAAAABMSEj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +PhsaGgAAABMSEj8+Pjc2Pjw8Pj8+Pj8+PjY2PDMyPD8+PicmJgAAAAEAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAAAACkoKD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjw8PAcGBgAAABgYGD8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+PiQkJAAAAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAcGBjw8PD8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+PiQkJAAAAAAAAAsKCiMiIjAwMDEwMCYmJBAODgAAAAEAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAAAAB4eHj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjg4OAICAgE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAMCAjg4OD8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgICAAEAAAIAAAIAAAEAAAEAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAAAABsaGj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+PiQkJAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAQEBDo
+        6Oj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgUEBAAAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAAAACQkJD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+PjU0NAkICAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAAAAA8ODj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiYmJgQEBAAAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAQEBDc2Nj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj08PCkoKA0MDAAAAAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAAAAAAAAC0sLD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjk6OC4uLhwcHAgICAAAAAAAAAAAAAA
+        AAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAAAACcmJj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+PiYmJgAAAAAAAAAAAAAAAAIAAAYGBAYEBAAAAAAAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAAAAAAAACUkJD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2Ni4uLi0
+        sLDAwMDY2Njs6Ojs6OioqKgoKCAAAAAAAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAAAAAQEBCoqKj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj08PCEgIAg
+        IBgAAAAAAAAAAAAAAAAAAAAAAAAICABcWFjc2Nj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjw8PCsqKhsaGhISEBEQEBcWFiQkIjY2Nj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj4+Pj8+Pj8+Pjs6Pj4+Pj08Pjo6Ph4eNi0sOjs6Pjs6Pj4+Pj4
+        +Pj08Pj8+Pj8+Pjc2PD8+Pjw8Pjs6Pjo6Pj4+Pjk4PD08Pj8+Pjk4PD8+Pj8+Pj8+Pj8+Pj8+Pjw8PiE
+        gNjs6PigoOBsaNCQkNisqOCAgNh8eNh8eNiEgNiAgNiQkNiYmOCYmODY2PDMyPBwcNCIiNiYmOCMiNh4
+        eNiIiNiAgNiMiNiMiNiAgNikoOD8+Pj8+Pj8+Pj8+Pjw8PhkYNB0cNCEgNh4cNiUkOB4eNiUkOCIiNiI
+        iNisqOioqOCUkOCIiNhwcNDo6Pi8uOhoaNCIiNhwcNCsqOCwsOiMiNh4eNiAgNiUkOCEgNioqOD8+Pj8
+        +Pj8+Pj8+Pj8+PicmOicmOD08Pj8+Pj8+Pj08Pj8+Pj4+Pj8+Pj8+Pj8+PjQ0PD4+Pj4+Pj8+PjU0PiI
+        iODMyPDQ0PD8+Pj8+Pj8+PjQ0PC4uOjs6Pj08Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vak aanpassen</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Name" xml:space="preserve">
+    <value>metroStyleManager1</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmVakAanpassen</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmdAnnuleren.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAnnuleren.Text" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnuleren.Name" xml:space="preserve">
+    <value>cmdAnnuleren</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnuleren.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnuleren.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnuleren.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+</root>

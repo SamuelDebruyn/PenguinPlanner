@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="metroStyleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>656, 529</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgrvMemo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgrvMemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 295</value>
+  </data>
+  <data name="dgrvMemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 150</value>
+  </data>
+  <data name="dgrvMemo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dgrvMemo.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dgrvMemo.Name" xml:space="preserve">
+    <value>dgrvMemo</value>
+  </data>
+  <data name="&gt;&gt;dgrvMemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgrvMemo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgrvMemo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="languageControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 479</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="languageControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="languageControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 31</value>
+  </data>
+  <data name="languageControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;languageControl2.Name" xml:space="preserve">
+    <value>languageControl2</value>
+  </data>
+  <data name="&gt;&gt;languageControl2.Type" xml:space="preserve">
+    <value>PP_Presentation.LanguageControl, PP_Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;languageControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;languageControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgrvMededelingen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 53</value>
+  </data>
+  <data name="dgrvMededelingen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 271</value>
+  </data>
+  <data name="dgrvMededelingen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgrvMededelingen.Name" xml:space="preserve">
+    <value>dgrvMededelingen</value>
+  </data>
+  <data name="&gt;&gt;dgrvMededelingen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgrvMededelingen.Parent" xml:space="preserve">
+    <value>tabMededelingen</value>
+  </data>
+  <data name="&gt;&gt;dgrvMededelingen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMededelingen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMededelingen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="lblMededelingen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblMededelingen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="lblMededelingen.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblMededelingen.Text" xml:space="preserve">
+    <value>Mededelingen</value>
+  </data>
+  <data name="&gt;&gt;lblMededelingen.Name" xml:space="preserve">
+    <value>lblMededelingen</value>
+  </data>
+  <data name="&gt;&gt;lblMededelingen.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblMededelingen.Parent" xml:space="preserve">
+    <value>tabMededelingen</value>
+  </data>
+  <data name="&gt;&gt;lblMededelingen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lstMededelingen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 130</value>
+  </data>
+  <data name="lstMededelingen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lstMededelingen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 251</value>
+  </data>
+  <data name="lstMededelingen.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lstMededelingen.Name" xml:space="preserve">
+    <value>lstMededelingen</value>
+  </data>
+  <data name="&gt;&gt;lstMededelingen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstMededelingen.Parent" xml:space="preserve">
+    <value>tabMededelingen</value>
+  </data>
+  <data name="&gt;&gt;lstMededelingen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabMededelingen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tabMededelingen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabMededelingen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 413</value>
+  </data>
+  <data name="tabMededelingen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabMededelingen.Text" xml:space="preserve">
+    <value>Mededelingen</value>
+  </data>
+  <data name="&gt;&gt;tabMededelingen.Name" xml:space="preserve">
+    <value>tabMededelingen</value>
+  </data>
+  <data name="&gt;&gt;tabMededelingen.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMededelingen.Parent" xml:space="preserve">
+    <value>tbcStudent</value>
+  </data>
+  <data name="&gt;&gt;tabMededelingen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdMemoOpslagen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 226</value>
+  </data>
+  <data name="cmdMemoOpslagen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="cmdMemoOpslagen.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cmdMemoOpslagen.Text" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="&gt;&gt;cmdMemoOpslagen.Name" xml:space="preserve">
+    <value>cmdMemoOpslagen</value>
+  </data>
+  <data name="&gt;&gt;cmdMemoOpslagen.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdMemoOpslagen.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;cmdMemoOpslagen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEmailInhoud.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEmailInhoud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 332</value>
+  </data>
+  <data name="lblEmailInhoud.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblEmailInhoud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblEmailInhoud.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblEmailInhoud.Name" xml:space="preserve">
+    <value>lblEmailInhoud</value>
+  </data>
+  <data name="&gt;&gt;lblEmailInhoud.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblEmailInhoud.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblEmailInhoud.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 332</value>
+  </data>
+  <data name="lblEmail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblEmail.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
+    <value>lblEmail</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAchternaamInhoud.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAchternaamInhoud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 308</value>
+  </data>
+  <data name="lblAchternaamInhoud.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAchternaamInhoud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblAchternaamInhoud.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaamInhoud.Name" xml:space="preserve">
+    <value>lblAchternaamInhoud</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaamInhoud.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaamInhoud.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaamInhoud.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAchternaam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAchternaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 308</value>
+  </data>
+  <data name="lblAchternaam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAchternaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="lblAchternaam.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblAchternaam.Text" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaam.Name" xml:space="preserve">
+    <value>lblAchternaam</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaam.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaam.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblAchternaam.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNaamInhoud.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNaamInhoud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 282</value>
+  </data>
+  <data name="lblNaamInhoud.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblNaamInhoud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblNaamInhoud.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblNaamInhoud.Name" xml:space="preserve">
+    <value>lblNaamInhoud</value>
+  </data>
+  <data name="&gt;&gt;lblNaamInhoud.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblNaamInhoud.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblNaamInhoud.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblNaam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 282</value>
+  </data>
+  <data name="lblNaam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblNaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="lblNaam.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblNaam.Text" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Name" xml:space="preserve">
+    <value>lblNaam</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblLeerkracht.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLeerkracht.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 254</value>
+  </data>
+  <data name="lblLeerkracht.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblLeerkracht.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="lblLeerkracht.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblLeerkracht.Text" xml:space="preserve">
+    <value>Docent</value>
+  </data>
+  <data name="&gt;&gt;lblLeerkracht.Name" xml:space="preserve">
+    <value>lblLeerkracht</value>
+  </data>
+  <data name="&gt;&gt;lblLeerkracht.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLeerkracht.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblLeerkracht.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblMemo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 30</value>
+  </data>
+  <data name="lblMemo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblMemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 25</value>
+  </data>
+  <data name="lblMemo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMemo.Text" xml:space="preserve">
+    <value>Memo voor het vak</value>
+  </data>
+  <data name="&gt;&gt;lblMemo.Name" xml:space="preserve">
+    <value>lblMemo</value>
+  </data>
+  <data name="&gt;&gt;lblMemo.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblMemo.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblMemo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rtxtMemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 67</value>
+  </data>
+  <data name="rtxtMemo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="rtxtMemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 154</value>
+  </data>
+  <data name="rtxtMemo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rtxtMemo.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtxtMemo.Name" xml:space="preserve">
+    <value>rtxtMemo</value>
+  </data>
+  <data name="&gt;&gt;rtxtMemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtxtMemo.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;rtxtMemo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="languageControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 393</value>
+  </data>
+  <data name="languageControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="languageControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 31</value>
+  </data>
+  <data name="languageControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Name" xml:space="preserve">
+    <value>languageControl1</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Type" xml:space="preserve">
+    <value>PP_Presentation.LanguageControl, PP_Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lstVakken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 63</value>
+  </data>
+  <data name="lstVakken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lstVakken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 342</value>
+  </data>
+  <data name="lstVakken.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstVakken.Name" xml:space="preserve">
+    <value>lstVakken</value>
+  </data>
+  <data name="&gt;&gt;lstVakken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstVakken.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lstVakken.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblVakken.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVakken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="lblVakken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblVakken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 25</value>
+  </data>
+  <data name="lblVakken.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblVakken.Text" xml:space="preserve">
+    <value>Vakken dat u volgt</value>
+  </data>
+  <data name="&gt;&gt;lblVakken.Name" xml:space="preserve">
+    <value>lblVakken</value>
+  </data>
+  <data name="&gt;&gt;lblVakken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblVakken.Parent" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;lblVakken.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tabVakken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tabVakken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabVakken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 413</value>
+  </data>
+  <data name="tabVakken.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabVakken.Text" xml:space="preserve">
+    <value>Vakken</value>
+  </data>
+  <data name="&gt;&gt;tabVakken.Name" xml:space="preserve">
+    <value>tabVakken</value>
+  </data>
+  <data name="&gt;&gt;tabVakken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabVakken.Parent" xml:space="preserve">
+    <value>tbcStudent</value>
+  </data>
+  <data name="&gt;&gt;tabVakken.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgrvTaken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 49</value>
+  </data>
+  <data name="dgrvTaken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 365</value>
+  </data>
+  <data name="dgrvTaken.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgrvTaken.Name" xml:space="preserve">
+    <value>dgrvTaken</value>
+  </data>
+  <data name="&gt;&gt;dgrvTaken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgrvTaken.Parent" xml:space="preserve">
+    <value>tabTaken</value>
+  </data>
+  <data name="&gt;&gt;dgrvTaken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTaken.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTaken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="lblTaken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTaken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 25</value>
+  </data>
+  <data name="lblTaken.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblTaken.Text" xml:space="preserve">
+    <value>Taken</value>
+  </data>
+  <data name="&gt;&gt;lblTaken.Name" xml:space="preserve">
+    <value>lblTaken</value>
+  </data>
+  <data name="&gt;&gt;lblTaken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblTaken.Parent" xml:space="preserve">
+    <value>tabTaken</value>
+  </data>
+  <data name="&gt;&gt;lblTaken.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabTaken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tabTaken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabTaken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 413</value>
+  </data>
+  <data name="tabTaken.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabTaken.Text" xml:space="preserve">
+    <value>Taken</value>
+  </data>
+  <data name="&gt;&gt;tabTaken.Name" xml:space="preserve">
+    <value>tabTaken</value>
+  </data>
+  <data name="&gt;&gt;tabTaken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabTaken.Parent" xml:space="preserve">
+    <value>tbcStudent</value>
+  </data>
+  <data name="&gt;&gt;tabTaken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgrvTesten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 49</value>
+  </data>
+  <data name="dgrvTesten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 365</value>
+  </data>
+  <data name="dgrvTesten.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;dgrvTesten.Name" xml:space="preserve">
+    <value>dgrvTesten</value>
+  </data>
+  <data name="&gt;&gt;dgrvTesten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgrvTesten.Parent" xml:space="preserve">
+    <value>tabTesten</value>
+  </data>
+  <data name="&gt;&gt;dgrvTesten.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTesten.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTesten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="lblTesten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTesten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="lblTesten.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblTesten.Text" xml:space="preserve">
+    <value>Testen</value>
+  </data>
+  <data name="&gt;&gt;lblTesten.Name" xml:space="preserve">
+    <value>lblTesten</value>
+  </data>
+  <data name="&gt;&gt;lblTesten.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblTesten.Parent" xml:space="preserve">
+    <value>tabTesten</value>
+  </data>
+  <data name="&gt;&gt;lblTesten.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabTesten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tabTesten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabTesten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 413</value>
+  </data>
+  <data name="tabTesten.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabTesten.Text" xml:space="preserve">
+    <value>Testen</value>
+  </data>
+  <data name="&gt;&gt;tabTesten.Name" xml:space="preserve">
+    <value>tabTesten</value>
+  </data>
+  <data name="&gt;&gt;tabTesten.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabTesten.Parent" xml:space="preserve">
+    <value>tbcStudent</value>
+  </data>
+  <data name="&gt;&gt;tabTesten.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbcStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 59</value>
+  </data>
+  <data name="tbcStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tbcStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 452</value>
+  </data>
+  <data name="tbcStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbcStudent.Name" xml:space="preserve">
+    <value>tbcStudent</value>
+  </data>
+  <data name="&gt;&gt;tbcStudent.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbcStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcStudent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PjY2NhQUFBMSEhQUFCQ
+        kIj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiQkIhYWFhUUFBQUEhM
+        SEhISEBEQEBAQDhkaGD8+Pj8+Pj8+PjY2NgAAAAAAAAAAAAcGBj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj08PAQCAgAAAAAAAAAAAAAAAAAAAAAAAAAAABEQED8+Pj8+Pj8+Pj8
+        +Pg4ODgAAAAAAAAYGBDs6Oj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgI
+        CAAEAAAIAAAIAAAIAAAIAAAIAAAAAAB4eHj8+Pj8+Pj8+Pj8+PiMiIgAAAAEAAAEAADU0ND8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiwsLAAAAAIAAAIAAAIAAAIAAAIAAAIAAAAAACo
+        qKj8+Pj8+Pj8+Pj8+Pjo6OgQCAgAAAAAAACwsKj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Ph0cHAAAAAIAAAIAAAIAAAIAAAIAAAEAAAMCAjY2ND8+Pj8+Pj8+Pj8+Pj8+PhwcHAAAAAA
+        AAB4eHj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pg0MDAAAAAIAAAIAAAIAAAI
+        AAAIAAAAAAAsKCj4+Pj8+Pj8+Pj8+Pj8+Pj8+Pjk4OAQEBAAAAA4ODD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+PjQ0NAEAAAEAAAIAAAIAAAIAAAIAAAIAAAAAABkYGD8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+PiMiIgAAAAEAADY2Nj8+Pj8+PjEwOjY2PD8+Pj8+PjU0PDMyPD8+Pj8+Pj8+PhsaGgAAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAAAACsqKj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj4+PgwKCgAAAB0cHD8+Pj8
+        +PiEgNgQCLhoYNBkYNAQCLiUkOD8+Pj8+Pjk4OAQCAgAAAAIAAAIAAAIAAAIAAAIAAAAAAAMCAjs6Oj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PjEwMAAAAAQCAjk4OD8+PiIgNgoIMB8eNh0cNAYELiQkOD8+Pj8
+        +PhcWFgAAAAIAAAIAAAIAAAIAAAIAAAIAAAAAABMSEj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +PhsaGgAAABMSEj8+Pjc2Pjw8Pj8+Pj8+PjY2PDMyPD8+PicmJgAAAAEAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAAAACkoKD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjw8PAcGBgAAABgYGD8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+PiQkJAAAAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAcGBjw8PD8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+PiQkJAAAAAAAAAsKCiMiIjAwMDEwMCYmJBAODgAAAAEAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAAAAB4eHj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjg4OAICAgE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAMCAjg4OD8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgICAAEAAAIAAAIAAAEAAAEAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAAAABsaGj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+PiQkJAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAQEBDo
+        6Oj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2NgUEBAAAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAAAACQkJD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+PjU0NAkICAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAAAAA8ODj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+PiYmJgQEBAAAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAQEBDc2Nj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj08PCkoKA0MDAAAAAAAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAAAAAAAAC0sLD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjk6OC4uLhwcHAgICAAAAAAAAAAAAAA
+        AAAEAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAAAAAAAACcmJj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+PiYmJgAAAAAAAAAAAAAAAAIAAAYGBAYEBAAAAAAAAAIAAAIAAAIAAAIAAAIAAAI
+        AAAIAAAIAAAIAAAIAAAAAAAAAACUkJD8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjc2Ni4uLi0
+        sLDAwMDY2Njs6Ojs6OioqKgoKCAAAAAAAAAIAAAIAAAIAAAIAAAIAAAIAAAEAAAAAAAQEBCoqKj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj08PCEgIAg
+        IBgAAAAAAAAAAAAAAAAAAAAAAAAICABcWFjc2Nj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pjw8PCsqKhsaGhISEBEQEBcWFiQkIjY2Nj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj4+Pj8+Pj8+Pjs6Pj4+Pj08Pjo6Ph4eNi0sOjs6Pjs6Pj4+Pj4
+        +Pj08Pj8+Pj8+Pjc2PD8+Pjw8Pjs6Pjo6Pj4+Pjk4PD08Pj8+Pjk4PD8+Pj8+Pj8+Pj8+Pj8+Pjw8PiE
+        gNjs6PigoOBsaNCQkNisqOCAgNh8eNh8eNiEgNiAgNiQkNiYmOCYmODY2PDMyPBwcNCIiNiYmOCMiNh4
+        eNiIiNiAgNiMiNiMiNiAgNikoOD8+Pj8+Pj8+Pj8+Pjw8PhkYNB0cNCEgNh4cNiUkOB4eNiUkOCIiNiI
+        iNisqOioqOCUkOCIiNhwcNDo6Pi8uOhoaNCIiNhwcNCsqOCwsOiMiNh4eNiAgNiUkOCEgNioqOD8+Pj8
+        +Pj8+Pj8+Pj8+PicmOicmOD08Pj8+Pj8+Pj08Pj8+Pj4+Pj8+Pj8+Pj8+PjQ0PD4+Pj4+Pj8+PjU0PiI
+        iODMyPDQ0PD8+Pj8+Pj8+PjQ0PC4uOjs6Pj08Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8+Pj8
+        +Pj8+Pj8+Pj8+Pj8+PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 60, 15, 16</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Name" xml:space="preserve">
+    <value>metroStyleManager1</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmStudent</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

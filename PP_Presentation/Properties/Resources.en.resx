@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Achternaam" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Begindatum" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Beschrijving" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Bevestiging" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Einddatum" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikerAanpassen_Click_Gelieve_eerst_een_gebruiker_te_selecteren_" xml:space="preserve">
+    <value>Please select a user first</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikerVerwijderen_Click_Gebruiker_verwijderd_" xml:space="preserve">
+    <value>User deleted</value>
+  </data>
+  <data name="FrmBeheerder_cmdVakVerwijderen_Click_Bent_u_zeker_dat_u_dit_vak_wilt_verwijderen_" xml:space="preserve">
+    <value>Are you sure you want to delete this course?</value>
+  </data>
+  <data name="FrmBeheerder_cmdVakVerwijderen_Click_Het_vak_is_succesvol_verwijderd_" xml:space="preserve">
+    <value>The course is succesfully deleted.</value>
+  </data>
+  <data name="FrmBeheerder_cmdVakVerwijderen_Click_Het_vak_kon_niet_verwijderd_worden__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The course could not be deleted. Please try again later.</value>
+  </data>
+  <data name="FrmDocent_cmdMededelingToevoegen_Click_De_mededeling_kon_niet_worden_toegevoegd_" xml:space="preserve">
+    <value>The announcement could not be saved. Please try again later.</value>
+  </data>
+  <data name="FrmDocent_cmdMededelingToevoegen_Click_De_mededeling_werd_succesvol_toegevoegd_" xml:space="preserve">
+    <value>The announcement was succesfully saved.</value>
+  </data>
+  <data name="FrmDocent_cmdMededelingToevoegen_Click_Gelieve_een_beschrijving_op_te_geven_die_langer_is_dan_250_tekens_" xml:space="preserve">
+    <value>Please give a description that is no longer than 250 characters.</value>
+  </data>
+  <data name="FrmDocent_cmdMededelingToevoegen_Click_Gelieve_eerst_een_vak_te_selecteren_" xml:space="preserve">
+    <value>Please select a course first.</value>
+  </data>
+  <data name="FrmDocent_cmdTakenToevoegen_Click_De_taak_kon_niet_worden_toegevoegd_" xml:space="preserve">
+    <value>The task could not be saved. Please try again later.</value>
+  </data>
+  <data name="FrmDocent_cmdTakenToevoegen_Click_De_taak_werd_succesvol_toegevoegd_" xml:space="preserve">
+    <value>The task was succesfully saved.</value>
+  </data>
+  <data name="FrmDocent_cmdTestToevoegen_Click_De_test_kon_niet_worden_toegevoegd__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The test could not be saved. Please try again later.</value>
+  </data>
+  <data name="FrmDocent_cmdTestToevoegen_Click_De_test_werd_succesvol_ingepland_" xml:space="preserve">
+    <value>The test was succesfully saved.</value>
+  </data>
+  <data name="Geboortedatum" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Mislukt" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Vak" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <data name="Verwijderd" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Voornaam" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_De_gebruiker_werd_succesvol_toegevoegd_" xml:space="preserve">
+    <value>The user was added succesfully.</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_Gelieve_een_geboortedatum_in_het_verleden_aan_te_duiden_" xml:space="preserve">
+    <value>Please enter date of birht in the past.</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_Gelieve_een_geldig_wachtwoord_in_te_vullen__minder_dan_60_karakters__" xml:space="preserve">
+    <value>Please enter a valid password (less than 60 characters).</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_Gelieve_een_geldig_e_mailadres_in_te_vullen__minder_dan_60_karakters__" xml:space="preserve">
+    <value>Please enter a valid email address (less than 60 characters).</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_Gelieve_een_geldige_achternaam_in_te_vullen__minder_dan_50_karakters__" xml:space="preserve">
+    <value>Please enter a valid last name (less than 60 characters).</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_Gelieve_een_geldige_voornaam_in_te_vullen__minder_dan_50_karakters__" xml:space="preserve">
+    <value>Please enter a valid first name (less than 60 characters).</value>
+  </data>
+  <data name="FrmInloggen_cmdOfficieelInloggen_Click_Uw_gebruikersnaam_of_wachtwoord_is_fout__Kijk_deze_na_en_probeer_het_opnieuw_" xml:space="preserve">
+    <value>Your username or password is incorrect. Please verify your credentials and try again.</value>
+  </data>
+  <data name="FrmInloggen_cmdOfficieelInloggen_Click_Gegevens_onjuist" xml:space="preserve">
+    <value>Wrong credentials</value>
+  </data>
+  <data name="FrmInloggen_cmdOfficieelInloggen_Click_Er_kon_geen_verbinding_gemaakt_worden_met_de_gegevensbank__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>We could not connect to the database. Please try again later.</value>
+  </data>
+  <data name="FrmInloggen_cmdOfficieelInloggen_Click_Geen_verbinding" xml:space="preserve">
+    <value>No connection</value>
+  </data>
+  <data name="Utilities_ConnectionLost_De_verbinding_met_de_gegevensbank_is_verbroken__De_applicatie_zal_herstart_worden_waarna_u_kan_proberen_om_opnieuw_verbinding_te_maken_" xml:space="preserve">
+    <value>The connection to the database is broken. The application will now restart.</value>
+  </data>
+  <data name="Utilities_ConnectionLost_Verbinding_verbroken" xml:space="preserve">
+    <value>Connection broken</value>
+  </data>
+  <data name="Program_Application_ThreadException_Er_trad_een_onbekende_fout_op__Neem_aub_contact_op_met_Penguin_Studio__De_applicatie_zal_zo_meteen_herstart_worden_" xml:space="preserve">
+    <value>An unknown error occured. Please contact Penguin Studio. The application will restart.</value>
+  </data>
+  <data name="Program_Application_ThreadException_Onbekende_fout" xml:space="preserve">
+    <value>Unknown error</value>
+  </data>
+  <data name="FrmGebruikerAanpassen_cmdOpslagen_Click_De_gebruiker_werd_succesvol_aangepast_" xml:space="preserve">
+    <value>The user information was succesfully updated.</value>
+  </data>
+  <data name="FrmGebruikerInschrijven_cmdInschrijven_Click_Gelieve_eerst_een_rol_te_selecteren_" xml:space="preserve">
+    <value>Please select a role first.</value>
+  </data>
+  <data name="FrmGebruikerInschrijven_cmdInschrijven_Click_De_gebruiker_werd_succesvol_ingeschreven_" xml:space="preserve">
+    <value>The user was succesfully enrolled.</value>
+  </data>
+  <data name="FrmGebruikerInschrijven_cmdInschrijven_Click_De_gebruiker_kon_niet_worden_ingeschreven__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The user could not be enrolled. Please try again later.</value>
+  </data>
+  <data name="VakNaamInvullen" xml:space="preserve">
+    <value>Please enter a name for the course (max 50 characters).</value>
+  </data>
+  <data name="VakBeschrijvingInvullen" xml:space="preserve">
+    <value>Please enter a description (max 50 characters).</value>
+  </data>
+  <data name="VakSTPInvullen" xml:space="preserve">
+    <value>Please enter a valid amount of STP.</value>
+  </data>
+  <data name="VakOpslaanMislukt" xml:space="preserve">
+    <value>The course could not be saved.</value>
+  </data>
+  <data name="STPParseFout" xml:space="preserve">
+    <value>The amount of STP is not a valid number.</value>
+  </data>
+  <data name="FrmVakAanpassenAdvanced_cmdLesAanmaken_Click_Er_zijn_geen_beschikbare_lokalen_" xml:space="preserve">
+    <value>There are no classrooms available.</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikerInschrijven_Click_Deze_gebruiker_werd_niet_teruggevonden_in_de_gegevensbank_" xml:space="preserve">
+    <value>This user was not found in the database.</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikerInschrijven_Click_Gebruiker_niet_gevonden" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikerVerwijderen_Click_De_gebruiker_kon_momenteel_niet_verwijderd_worden__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>This user could not be deleted. Please try again later.</value>
+  </data>
+  <data name="FrmBeheerder_cmdGebruikersToevoegenUitCSV_Click_De_gebruikers_uit_het_CSV_bestand_konden_niet_worden_toegevoegd_aan_de_gegevensbank__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The user information from the CSV file could not be saved. Please try again later.</value>
+  </data>
+  <data name="FrmGebruikerAanmaken_cmdOpslagen_Click_De_gebruiker_kon_niet_worden_opgeslagen__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The user information could not be saved. Please try again later.</value>
+  </data>
+  <data name="FrmGebruikerAanpassen_cmdOpslagen_Click_Er_trad_een_fout_op_bij_het_opslaan_van_de_gebruiker__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>An error occured while saving this user.</value>
+  </data>
+  <data name="FrmGebruikerAanpassen_cmdVerwijderen_Click_De_gebruiker_kon_niet_verwijderd_worden__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The user could not be deleted.</value>
+  </data>
+  <data name="FrmVakAanpassenAdvanced_cmdLesVerwijderen_Click_De_les_kon_niet_verwijderd_worden__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The lesson could not be deleted.</value>
+  </data>
+  <data name="FrmVakAanpassenAdvanced_cmdLesVerwijderen_Click_De_les_werd_succesvol_verwijderd_" xml:space="preserve">
+    <value>The lesson was succesfully deleted.</value>
+  </data>
+  <data name="FrmStudent_cmdMemoOpslagen_Click_De_memo_kon_niet_worden_opgeslagen__Probeer_het_later_opnieuw_" xml:space="preserve">
+    <value>The memo could not be saved. Please try again later.</value>
+  </data>
+</root>
